@@ -10,11 +10,11 @@ public class Exemplo006 {
 
         Calendar agora = Calendar.getInstance();
 
-        System.out.println("A data corrente é : " + agora.getTime());
+        System.out.println("A data corrente � : " + agora.getTime());
         // A data corrente é : Sun Jul 14 20:50:31 BRT 2019
 
         agora.add(Calendar.DATE, -15);
-        System.out.println("15 dias atrás: " + agora.getTime());
+        System.out.println("15 dias atr�s: " + agora.getTime());
         // 15 dias atrás: Sat Jun 29 20:50:31 BRT 2019
 
         agora.add(Calendar.MONTH, 4);
